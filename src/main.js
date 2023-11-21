@@ -1,16 +1,44 @@
 import "./style.css";
-//Title of exercise
-console.log("Hello, this is te practice of Module 2, type of data!");
+//Title of the bands
+console.log("Band's group");
 
-//Info
+//Beatles
+console.log(
+".Name: Queen;"
+);
+
+//Queen
 console.log({
-    Ticket: "120€",
-    Drinks: "18€",
+    name: "Queen",
+    age: "1970",
+    active: "False",
+    genre: "Rock"
 }
 );
 
-//Calculations
-console.log("Food without drinks");
-console.log(120-18); 
-console.log("Food for each person");
-console.log(102 / 6); 
+//AC DC
+console.log({
+    name: "AC DC",
+    age: "1973",
+    active: "True",
+    genre: "Hard Rock"
+}
+);
+
+//Ludwig Van Beethoven
+console.log({
+    name: "Ludwig Van Beethoven",
+    age: "1770",
+    active: "False",
+    genre: "Clásica"
+}
+);
+
+//The Rolling Stones
+console.log({
+    name: "The Rolling Stones",
+    age: "1962",
+    active: "True",
+    genre: "Rock"
+}
+);
