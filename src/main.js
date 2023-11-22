@@ -10,54 +10,24 @@ const HardRock = "🤘 Hard Rock";
 const Clasica = "🎼 Clásica";
 
 //Title of the bands
-console.log("Band's group", Title);
+console.log("Band's group");
 
 //Beatles
-console.log("-Beatles")
-console.log({
-    name: "Beatles",
-    age: 1960,
-    active: "True",
-    genre: `${PopRock}`
-}
-);
+const firstgroup = {Name: "Beatles", Age: 1960, Active: "True", Genre: `${PopRock}`};
+console.log(`%c ${firstgroup.Name}`, Title, firstgroup);
 
 //Queen
-console.log("-Queen")
-console.log({
-    name: "Queen",
-    age: 1970,
-    active: "False",
-    genre: `${Rock}`
-}
-);
+const secondgroup = {Name: "Queen", Age: 1970, Active: "False", Genre: `${Rock}`};
+console.log(`%c ${secondgroup.Name}`, Title, secondgroup);
 
 //AC DC
-console.log("-AC DC")
-console.log({
-    name: "AC DC",
-    age: 1973,
-    active: "True",
-    genre: `${HardRock}`
-}
-);
+const thirdgroup = {Name: "AC DC", Age: 1973, Active: "True", Genre: `${HardRock}`};
+console.log(`%c ${thirdgroup.Name}`, Title, thirdgroup);
 
 //Ludwig Van Beethoven
-console.log("-Ludwig Van Beethoven")
-console.log({
-    name: "Ludwig Van Beethoven",
-    age: 1770,
-    active: "False",
-    genre: `${Clasica}`
-}
-);
+const fordgroup = {Name: "Ludwig Van Beethoven", Age: 1770, Active: "False", Genre: `${Clasica}`};
+console.log(`%c ${fordgroup.Name}`, Title, fordgroup);
 
 //The Rolling Stones
-console.log("-The Rolling Stones")
-console.log({
-    name: "The Rolling Stones",
-    age: 1962,
-    active: "True",
-    genre: `${Rock}`
-}
-);
+const fivegroup = {Name: "The Rolling Stones", Age: 1962, Active: "True", Genre: `${Rock}`};
+console.log(`%c ${fivegroup.Name}`, Title, fivegroup);
